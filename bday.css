@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to right, #f5eef8, #d0f6f9);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  display: none; /* Initially hidden */
+}
+
+#giftBase{
+  position: absolute;
+  width: 150px;
+  left: 130px; /* Adjust horizontally */
+}
+
+#giftTop{
+  position: absolute;
+  width: 150px;
+  left: 63px;
+}
+
+#giftBase {
+  top: 150px; /* Adjust vertically */
+}
+
+#giftTop {
+  top: 135px;
+  transition: transform 1s ease;
+  transform-origin: bottom center;
+  -webkit-transition: transform 1s ease;
+  -moz-transition: transform 1s ease;
+  -ms-transition: transform 1s ease;
+  -o-transition: transform 1s ease;
+}
